@@ -18,3 +18,8 @@ function telaAlunoEstudando (escola){
 }
 
 telaAlunoEstudando (escola)
+
+//B) busque um aluno usando o método find e apresente na tela
+const aluno = escola.find(aluno=>aluno.aluno === "Alícia")
+document.write(`ALUNO BUSCADO: ${aluno.aluno}`)
+console.log(aluno.aluno)
